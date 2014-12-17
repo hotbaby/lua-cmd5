@@ -12,7 +12,7 @@ cmd5:
 	$(CC) cmd5.c $(CFLAGS) $(LDFLAGS) -o $@
 
 install:
-	sudo cp cmd5.so /usr/local/lib/lua/5.1/
+	sudo cp cmd5.so /usr/lib/lua
 
 clean:
 	rm cmd5.so
